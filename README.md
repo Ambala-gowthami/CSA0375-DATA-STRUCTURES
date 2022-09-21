@@ -1,53 +1,15 @@
 # CSA0375-DATA-STRUCTURES
-#include<stdio.h>    
-#include<stdlib.h>  
-int main(){  
-int a[10][10],b[10][10],mul[10][10],r,c,i,j,k;    
-system("cls");  
-printf("enter the number of row=");    
-scanf("%d",&r);    
-printf("enter the number of column=");    
-scanf("%d",&c);    
-printf("enter the first matrix element=\n");    
-for(i=0;i<r;i++)    
-{    
-for(j=0;j<c;j++)    
-{    
-scanf("%d",&a[i][j]);    
-}    
-}    
-printf("enter the second matrix element=\n");    
-for(i=0;i<r;i++)    
-{    
-for(j=0;j<c;j++)    
-{    
-scanf("%d",&b[i][j]);    
-}    
-}    
-    
-printf("multiply of the matrix=\n");    
-for(i=0;i<r;i++)    
-{    
-for(j=0;j<c;j++)    
-{    
-mul[i][j]=0;    
-for(k=0;k<c;k++)    
-{    
-mul[i][j]+=a[i][k]*b[k][j];    
-}    
-}    
-}    
-//for printing result    
-for(i=0;i<r;i++)    
-{    
-for(j=0;j<c;j++)    
-{    
-printf("%d\t",mul[i][j]);    
-}    
-printf("\n");    
-}    
-return 0;  
-}
-
-OUTPUT:
-![Screenshot (18)](https://user-images.githubusercontent.com/112491509/191203636-d251dc51-52bd-476b-8861-45ba60809168.png)
+factorial with recursion,
+factorial without recursion,
+fibnoccais without recursion,
+hashing linear probing,
+heap sort,
+insertion sort,
+linked list,
+matrix multiplication,
+merge sort,
+minimum spanning tree,
+odd or even,
+quick sort,
+shortest distance dukstras algorithm,
+stack notations,
