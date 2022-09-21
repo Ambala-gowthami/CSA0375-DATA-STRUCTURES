@@ -13,3 +13,7 @@ odd or even,
 quick sort,
 shortest distance dukstras algorithm,
 stack notations,
+avl tree,
+stack operation,
+fibonacci series with recursion,
+
